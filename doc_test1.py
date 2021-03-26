@@ -14,8 +14,6 @@ class C:
     x = property(getx, setx, delx, "I'm the 'x' property.")
 
 
-
-
 if __name__ == '__main__':
     c = C()
     print(c.x)       # c.getx()

@@ -15,6 +15,7 @@ class C:
         def x(self):
             del self._x
 
+
 if __name__ == '__main__':
     c = C()
     print(c.x)       # c.getx()
